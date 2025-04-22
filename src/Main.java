@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        int balans = 100;
+        int balance = 100;
         int bonus;
-        int newBalans;
+        int newBalance;
         int payment = 300;
         if (payment > 1000) {
             bonus = payment / 100;
-            newBalans = balans + bonus + payment;
+            newBalance = balance + bonus + payment;
         } else {
             bonus = 0;
-            newBalans = balans + payment;
+            newBalance = balance + payment;
         }
 
-        System.out.println("Итоговая сумма: " + newBalans);
+        System.out.println("Итоговая сумма: " + newBalance);
 
 
     }
